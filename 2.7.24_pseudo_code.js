@@ -59,7 +59,7 @@ Output: 3
 function findTargetNums(nums, target) {
     for (let i = 0; i < nums.length; i++) {
       if (nums[i] === target) {
-    // console.log(nums, target); 
+    console.log(nums, target); 
         // console.log(nums[i]); 
         // return i;
       } else if (nums[i] > target) {
@@ -71,8 +71,8 @@ function findTargetNums(nums, target) {
     return nums.length;
   }
   
-  findTargetNums([56, 67, 70, 77], 72);
-  
+  findTargetNums([56, 67, 70, 77], 77);
+  // console.log("hello")
 
 // function findNumbers(numbers) {
 //     console.log(numbers); 
